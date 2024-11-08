@@ -41,6 +41,21 @@
     margin-left: auto;
 }
 
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 300px; /* Adjust based on your layout */
+}
+
+.center-image {
+    max-width: 150px; /* Adjust the image size as needed */
+    margin-bottom: 20px; /* Spacing between the image and text */
+}
+
+
 </style>
 	
 	<!-- Theme Preview Only CSS -->
