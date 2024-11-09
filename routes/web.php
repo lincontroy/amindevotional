@@ -22,6 +22,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
+
 Route::get('cache-clear', function () {
     Artisan::call('optimize:clear');
     request()->session()->flash('success', 'Successfully cache cleared.');

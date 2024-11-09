@@ -120,7 +120,7 @@ $(document).ready(function () {
 	// Initiate typed.js text effect (done custom for each typed text effect)
 	$(".animated-text-effect").typed({
 		// Enter your texts here, these texts are applied to light homepages
-		strings: ["What a Better Knowledge than to Know God and His Son?", "Our Vision is That All The Nations of The World Will Come to The Knowledge of God and The Knowledge of His Son Jesus Christ Whom He Sent, and in so doing, Have Eternal Life in Experience. ", "Eternal life is not life after death, that is everlasting life. "], 
+		strings: ["Welcome To A Minute Jesus Devotional", "A Family of Love and Growth Through The Knowledge of God"], 
 		contentType: "text", 
 		typeSpeed: 30, 
 		loop: true, 

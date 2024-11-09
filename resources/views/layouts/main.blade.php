@@ -54,6 +54,20 @@
     max-width: 150px; /* Adjust the image size as needed */
     margin-bottom: 20px; /* Spacing between the image and text */
 }
+.custom-navbar {
+	background-color: rgba(0, 0, 0, 0.2) !important;
+    padding: 0.5rem 1rem; /* Reduce top and bottom padding to decrease height */
+}
+
+.custom-navbar .navbar-brand img {
+    max-height: 40px; /* Adjust logo height */
+}
+
+.custom-navbar .navbar-nav .nav-link {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    font-size: 0.9rem; /* Optional: Adjust font size if needed */
+}
 
 
 </style>
@@ -88,10 +102,10 @@
 <!-- Mobile Main Logo -->
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
     <!-- Logo -->
     <a class="navbar-brand" href="#">
-        <img src="assets/images/logo.png" alt="Logo" style="max-width: 100px; height: auto;">
+        <img src="assets/images/logo.png" alt="Logo" style="max-width: 80px; height: auto;">
     </a>
 
     <!-- Hamburger Toggle Button -->
@@ -104,6 +118,10 @@
         <ul class="navbar-nav ms-auto">
             <li class="nav-item">
                 <a class="nav-link" href="/">Home</a>
+            </li>
+
+			<li class="nav-item">
+                <a class="nav-link" href="/about">About Us</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="{{ url('verseoftheday') }}">Verse of the day</a>
@@ -123,6 +141,7 @@
         </ul>
     </div>
 </nav>
+
 <!-- /.pa-menu -->
 <!-- /.pa-menu -->
 

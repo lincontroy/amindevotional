@@ -29,7 +29,7 @@
 
 <!-- CTA Section
 	================================================== -->
-<section class="pa-cta-v1" data-parallax="scroll" data-speed="0.2" data-image-src="assets/images/8.jpg">
+<!-- <section class="pa-cta-v1" data-parallax="scroll" data-speed="0.2" data-image-src="assets/images/8.jpg">
 
     <div class="container">
         <h1 class="pa-h1-v1 pa-bright fadeInLeftDelay03Duration10"><strong>A Minute Jesus Devotional</strong></h1>
@@ -39,16 +39,13 @@
 
     </div>
 
-</section>
+</section> -->
 <!-- /.pa-cta-v1 -->
 
 
 <!-- Portfolio Section
 	================================================== -->
-<section id="portfolio" class="pa-portfolio">
-    <!-- Portfolio header -->
-
-    <!-- Portfolio thumbnails -->
+<!-- <section id="portfolio" class="pa-portfolio">
     <div class="container-fluid">
         <div class="row pa-row-max2560">
             <div class="col-12 col-sm-6 col-lg-3 p-0">
@@ -121,7 +118,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- /.pa-portfolio -->
 
 
@@ -130,18 +127,33 @@
 <section id="about-us" class="pa-about-us pa-standard-section pa-bright text-center">
 
     <div class="container">
-        <!-- Section Header -->
         <div class="row">
             <div class="col-12 col-xl-10 offset-xl-1">
 
-                <h1 class="pa-h1-v2 pa-dark fadeInDelay00Duration10"><strong>About</strong> A Minute Jesus Devotional
+                <h1 class="pa-h1-v2 pa-dark fadeInDelay00Duration10"><strong>Our Vision is to Know God and Make Him Known - John 17:3</strong> 
                 </h1>
-                <p class="pa-p-v1 pa-dark fadeInDelay03Duration10">A Minute Jesus Devotional is a Family of Believers
-                    with a Passion to Know God and walk in His Ways and in the manifestation of His Power!
+              
+                <a href="/about" class="btn btn-primary mt-3">Read More</a>
+            </div>
+        </div>
 
-                    Our Vision is That All The Nations of The World Will Come to The Knowledge of God and The Knowledge
-                    of His Son Jesus Christ Whom He Sent, and in so doing, Have Eternal Life in Experience. </p>
+        <!-- Bottom Images -->
 
+    </div>
+
+</section>
+
+
+<section id="about-us" class="pa-about-us pa-standard-section pa-bright text-center">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-xl-10 offset-xl-1">
+
+                <h1 class="pa-h1-v2 pa-dark fadeInDelay00Duration10"><strong>Our Mission is To Save, Disciple, Mentor and Empower Nations - Matthew 28:19-20</strong> 
+                </h1>
+              
+                <a href="/about" class="btn btn-primary mt-3">Read More</a>
             </div>
         </div>
 

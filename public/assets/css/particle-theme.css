@@ -1653,7 +1653,7 @@ section.pa-centered-section {
 /* Full height (but not taller than 1.8*width) */
 
 .pa-full-height {
-	height: 100vh;
+	height: 50vh;
 }
 
 /* When section uses a background image as cover */
@@ -1775,7 +1775,7 @@ table a,
 /* Default Hero */
 
 .pa-hero {
-	min-height: 326px;
+	min-height: 163px;
 }
 
 .pa-hero-content {
