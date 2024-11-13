@@ -633,6 +633,8 @@
   <div class="carousel-slide">
     <img src="assets/images/testify.jfif" alt="Image 3">
     <div class="carousel-title">I Testify  </div>
+
+    <br><br>
     <div class="carousel-text">"I Testify" is a powerful expression of personal faith, where individuals share their experiences and affirm the work of God in their lives. It’s a declaration of what God has done, how He has transformed lives, and the hope that He continues to bring. Through personal testimonies, people can inspire others, offer encouragement, and bring glory to God.</div>
     <button class="carousel-button prev" onclick="changeSlide(-1)">❮ Prev</button>
     <button class="carousel-button next" onclick="changeSlide(1)">Next ❯</button>
